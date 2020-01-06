@@ -53,7 +53,8 @@ module.exports = {
     return exits.success({
       success: true,
       message: 'Session restored',
-      user: user
+      user: user,
+      token: token
     });
 
   }

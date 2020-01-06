@@ -74,7 +74,8 @@ module.exports = {
     return exits.success({
       success: true,
       message: 'Logged in',
-      user: user
+      user: user,
+      token: token,
     });
 
 
