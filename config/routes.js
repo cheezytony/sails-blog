@@ -29,6 +29,7 @@ module.exports.routes = {
   'GET    /post': 'PostController.index',
   'POST   /post': 'PostController.store',
   'GET    /post/:postId': 'PostController.view',
+  'GET    /post/:postId/image': 'PostController.image',
 
 
   /***************************************************************************
