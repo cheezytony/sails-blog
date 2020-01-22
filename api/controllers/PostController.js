@@ -20,6 +20,7 @@ module.exports = {
       limit,
       skip: skip
     })
+    .sort('createdAt DESC')
     .populate('user')
     .populate('comments')
     .populate('likes')
